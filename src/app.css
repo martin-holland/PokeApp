@@ -1,0 +1,14 @@
+.cardspace {
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.imgpadding {
+  margin-top: 0.5rem;
+}
+
+.pokemon-name {
+  text-transform: capitalize;
+  font-size: 1rem;
+}

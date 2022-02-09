@@ -15,9 +15,11 @@ const App = () => {
   const getArray = JSON.parse(localStorage.getItem("favourites") || "0");
 
   useEffect(() => {
+    // eslint-disable-next-line
     if (getArray != 0) {
       setFavourites(getArray);
     }
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
@@ -25,6 +27,7 @@ const App = () => {
   }, [favourites]);
 
   const favHandler = (pokemon) => {
+    // eslint-disable-next-line
     let item = favourites.some((item) => item.id == pokemon.id);
 
     if (!item) {

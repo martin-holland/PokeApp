@@ -12,3 +12,38 @@
   text-transform: capitalize;
   font-size: 1rem;
 }
+
+main {
+  height: calc(100vh - 56px);
+}
+
+.hero {
+  background: url("https://images.unsplash.com/photo-1613771404721-1f92d799e49f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80")
+    no-repeat fixed center center/cover;
+  height: 100%;
+  color: white;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.abilities {
+  color: white;
+  text-transform: capitalize;
+}
+.types {
+  color: white;
+  text-transform: capitalize;
+}
+
+.types ul li::before {
+  color: white;
+  display: inline-block;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: left !important;
+}

@@ -20,6 +20,8 @@ Live page [here](https://github.com/margittennosaar/markdown_study_materials)
 
 ## Screenshot
 
+![Screenshot](screenshot.png)
+
 ## Sources
 
 ## Authors and acknowledgment

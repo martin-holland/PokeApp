@@ -1,6 +1,6 @@
 # PokeApp
 
-- A Small project to refresh knowledge of React and introducing hooks.
+- A Small project to refresh knowledge of React and introducing hooks. Utilising REST API getting data from https://pokeapi.co/
 
 ## Technologies used
 
@@ -23,6 +23,8 @@ Live page [here](https://github.com/margittennosaar/markdown_study_materials)
 ![Screenshot](screenshot.png)
 
 ## Sources
+
+https://pokeapi.co/
 
 ## Authors and acknowledgment
 

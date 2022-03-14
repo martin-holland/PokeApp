@@ -17,6 +17,7 @@ const PokeList = ({ favHandler, favourites }) => {
 
   useEffect(() => {
     getPokemons();
+    // eslint-disable-next-line
   }, []);
 
   const getPokemons = () => {
